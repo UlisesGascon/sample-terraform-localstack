@@ -27,8 +27,8 @@ AWS_BUCKET_REGION='us-east-1'
 **Time to play**
 - You need to run/test [Terraform scripts](https://www.terraform.io/)? 
     - You need to [install Terraform in your machine](https://learn.hashicorp.com/terraform/azure/install_az) (for mac: `brew install terraform`)
-    You can run `terraform `
     - Check the example file `main.tf`
+    - Initialize the enviroment `terraform init`
     - Execute it `terraform apply`
     - Check `http://localhost:4572/` and `http://localhost:8055/#/infra`
 - You need to run AWS Cli commands?
