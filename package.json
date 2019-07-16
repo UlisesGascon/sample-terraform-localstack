@@ -1,0 +1,23 @@
+{
+  "name": "sample-terraform-localstack",
+  "version": "1.0.0",
+  "description": "Sample project to use Terraform, Localstack (AWS Local) and Docker compose with Nodejs.",
+  "main": "upload-demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UlisesGascon/sample-terraform-localstack.git"
+  },
+  "author": "Ulises Gascón",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/UlisesGascon/sample-terraform-localstack/issues"
+  },
+  "homepage": "https://github.com/UlisesGascon/sample-terraform-localstack#readme",
+  "dependencies": {
+    "aws-sdk": "^2.493.0",
+    "dotenv": "^8.0.0"
+  }
+}
